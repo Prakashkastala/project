@@ -1,0 +1,88 @@
+body{
+  background:linear-gradient( #2f4680, #500ae4);
+}
+.wheather{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 100vw;
+}
+.wheatherBox{
+  padding: 60px;
+  color: white;
+  height:55vh;
+  border-radius: 6%;
+  background-color: black;
+}
+.input{
+  border-radius: 35px;
+  height: 45px;
+  width: 100%;
+  font-size: 20px;
+  margin-left: 7px;
+}
+.sun{
+  align-items: center;
+margin-left: 65px;
+margin-top: 20px;
+  height: 14vh;
+  width: 50%;
+}
+.temp{
+  margin-left: 18px;
+  margin-top: 20px;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.city{
+  margin-left: 25px;
+  margin-top: 3px;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.description{
+  margin-left: 25px;
+  margin-top: 3px;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.humidity{
+  margin-left: 25px;
+  margin-top: 3px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.wind{
+  margin-left: 25px;
+  margin-top: 3px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.details{
+display: flex;
+}
+@media only screen and (max-width: 600px) {
+  .sun{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+    height: 18vh;
+  }
+  .temp{
+    font-size: 40px;
+  }
+  .city{
+    font-size: 30px;
+  }
+  .description{
+    font-size: 30px;
+  }
+  .humidity{
+    font-size: 20px;
+  }
+  .wind{
+    font-size: 20px;
+  }
+}
