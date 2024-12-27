@@ -9,6 +9,13 @@ body{
   height: 90vh;
   width: 100vw;
 }
+h1{
+text-align: center;
+font-size: 30px;
+background-image: linear-gradient(45deg, #ff00ff, #0000ff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 .wheatherBox{
   padding: 60px;
   color: white;
@@ -70,6 +77,10 @@ display: flex;
     margin-top: 20px;
     height: 18vh;
   }
+  h1{
+    text-align: center;
+  }
+  
   .temp{
     font-size: 40px;
   }
@@ -85,4 +96,5 @@ display: flex;
   .wind{
     font-size: 20px;
   }
+
 }
