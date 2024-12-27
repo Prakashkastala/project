@@ -34,6 +34,7 @@ let[wind,setWind]=React.useState('');
   <>
   <div className='wheather'>
     <div className='wheatherBox'>
+  <h1>Wheather App</h1>
   <div>
   <input type='text' placeholder='Search a city' className='input' value={search} onChange={(e) => setSearch(e.target.value)}></input>
   </div>
